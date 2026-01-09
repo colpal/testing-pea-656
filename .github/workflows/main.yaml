@@ -1,7 +1,7 @@
 on: push
 jobs:
   main:
-    runs-on: cp-ubuntu-amd64-1core-1gb
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       id-token: write
